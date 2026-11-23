@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Vivado / Vitis generated files
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+build/
+*.log
+*.jou
+*.dcp
+*.bit
+*.wdb
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
