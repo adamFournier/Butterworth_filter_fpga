@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Jun  1 21:50:59 2026
+# Process ID         : 25224
+# Current directory  : C:/Users/adams/Documents/project_DSP_VHDL
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25904 C:\Users\adams\Documents\project_DSP_VHDL\project_DSP.xpr
+# Log file           : C:/Users/adams/Documents/project_DSP_VHDL/vivado.log
+# Journal file       : C:/Users/adams/Documents/project_DSP_VHDL\vivado.jou
+# Running On         : OrdiAdamF
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 PRO 5675U with Radeon Graphics     
+# CPU Frequency      : 2296 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 15886 MB
+# Swap memory        : 20401 MB
+# Total Virtual      : 36287 MB
+# Available Virtual  : 4882 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/adams/Documents/project_DSP_VHDL/project_DSP.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top filter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+launch_simulation
+open_wave_config C:/Users/adams/Documents/project_DSP_VHDL/project_DSP.srcs/sim_1/imports/project_DSP_VHDL/tb_filter_behav.wcfg
+source tb_filter.tcl
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top band_filter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -top band_filter -part xc7a100tcsg324-1 -lint 
+synth_design -top band_filter -part xc7a100tcsg324-1 -lint 
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_band_filter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config C:/Users/adams/Documents/project_DSP_VHDL/project_DSP.srcs/sim_1/imports/project_DSP_VHDL/tb_filter_behav.wcfg
+source tb_band_filter.tcl
+run all
+save_wave_config {C:/Users/adams/Documents/project_DSP_VHDL/project_DSP.srcs/sim_1/imports/project_DSP_VHDL/tb_filter_behav.wcfg}
+close_sim

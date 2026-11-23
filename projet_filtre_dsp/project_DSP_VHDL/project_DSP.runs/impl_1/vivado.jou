@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri May 22 16:54:28 2026
+# Process ID         : 28436
+# Current directory  : D:/project_DSP_VHDL/project_DSP.runs/impl_1
+# Command line       : vivado.exe -log adc_band_filt.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source adc_band_filt.tcl -notrace
+# Log file           : D:/project_DSP_VHDL/project_DSP.runs/impl_1/adc_band_filt.vdi
+# Journal file       : D:/project_DSP_VHDL/project_DSP.runs/impl_1\vivado.jou
+# Running On         : n7-b201-14
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12500
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16853 MB
+# Swap memory        : 19385 MB
+# Total Virtual      : 36239 MB
+# Available Virtual  : 7292 MB
+#-----------------------------------------------------------
+source adc_band_filt.tcl -notrace
