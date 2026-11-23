@@ -5,8 +5,7 @@ __pycache__/
 venv/
 .pytest_cache/
 .ipynb_checkpoints/
-
-# Vivado / Vitis generated files
+# Vivado / Vitis output
 .Xil/
 *.cache/
 *.runs/
@@ -20,8 +19,14 @@ build/
 *.dcp
 *.bit
 *.wdb
-
-# OS/editor
+*.wcfg
+*.str
+*.rpt
+*.pb
+*.rpx
+*.vdi
+*.lpr
+# OS / editors
 .DS_Store
 Thumbs.db
 .vscode/
